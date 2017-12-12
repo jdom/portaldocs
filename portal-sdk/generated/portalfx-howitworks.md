@@ -5,7 +5,7 @@ The [Azure portal](http://portal.azure.com) is a [single page application](http:
 
 The IFRAMEs loaded by the portal are entirely hidden. The scripts loaded by these IFRAME interact with the portal using Azure Portal SDK APIs. Using the Azure portal SDK APis allows the extensions to provide a consistent, and predictable experience for Azure portal users.
 
-When a user visits the Azure portal, extensions will be loaded based on the users subscription. Extensions can be loaded asynchronously, and even deactivated when it's not currently in use.
+When a user visits the Azure portal, extensions will be loaded based on the users subscription. Extensions can be loaded asynchronously, and even deactivated when they are not currently in use.
 
 **Azure portal architecture block diagram**
 
