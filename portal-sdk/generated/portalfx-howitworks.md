@@ -22,7 +22,7 @@ When a user visits the Azure portal, extensions will be loaded based on the user
 1. Building custom UI is enabled using standard web technologies like [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS).
 1. Extension developers can provide customers of your service consistent experience across all clients i.e. UI, powershell or CLI by implementing business logic in APIs exposed through ARM.
 1. Azure portal mints tokens on behalf of extensions. This allows extensions to invoke ARM APIs out of the box. In case your extension needs to invoke services such as Graph then we recommend you go through [Authentication guide](portalfx-authentication.md) asap to check if you need help from our team.
-1. Extension developers can provide leverage the extension hosting service to deploy extension's UI in all Azure data centers.
+1. Extension developers can leverage the extension hosting service to deploy extension's UI in all Azure data centers.
 
 
 
