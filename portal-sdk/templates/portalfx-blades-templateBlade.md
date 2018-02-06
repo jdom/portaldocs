@@ -216,7 +216,7 @@ Blades can have buttons that are docked to their bottom area. In this section we
         public id: KnockoutObservable<string>;
         public infoBox: MsPortalFx.ViewModels.Controls.InfoBox.BaseViewModel;
 
-        // define the actionBar view-demol
+        // define the actionBar view-model
         public actionBar: MsPortalFx.ViewModels.ActionBars.GenericActionBar.ViewModel;
 
         constructor(container: MsPortalFx.ViewModels.ContainerContract, initialState: any, dataContext: any) {
@@ -269,7 +269,7 @@ constructor(container: FxCompositionBlade.Container, initialState: any, dataCont
     // show the shield while the operation promise is not resolved
     container.operations.add(operation.promise, { blockUi: true, shieldType: MsPortalFx.ViewModels.ShieldType.Opaque });
 
-    // wait for 3 seconds and resolved the promise (which will remove the shield)
+    // wait for 3 seconds and resolve the promise (which will remove the shield)
     window.setTimeout(() => { operation.resolve(); }, 3000);
 }
 ```
