@@ -283,8 +283,8 @@ function writeDocsToFile(aggregate, outputDir) {
     breakingChangesFile.write(util.format("# Breaking Changes since %s \n* Additional Q&A about breaking changes can be found [here](./breaking-changes.md) \n* To ask a question about breaking changes [use this](https://aka.ms/ask/ibiza-breaking-change)  \n", fourMonthsAgo.toLocaleDateString("en-US")));
     downloadsDoc.write(util.format("# Download Portal SDK \n Download Latest Release: <a href=\"%s\">%s</a>\n<table><tr><th>Download</th><th>Detail</th><th>Breaking Changes</th></tr>", aggregate[latestDownloadableSdkVersion].downloadUrl, latestDownloadableSdkVersion));
 
-    Object.keys(aggregate).forEach(function (version) {
-        var result = aggregate[version]
+    sortedVersions.forEach(function (version) {
+        var result = aggregate[version];
         var versionFragment = version.replace(/\./g, '');
 
         console.log("Version: " + version);
