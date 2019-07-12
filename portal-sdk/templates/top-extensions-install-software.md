@@ -28,11 +28,11 @@ Install the following software. Your team should be aware of the most current do
 
 ### Visual Studio Code (or other similar IDE)
 
-1. Install [.NET 4.5.2](https://www.microsoft.com/en-us/download/details.aspx?id=42642)
+1. Install [.NET 4.6.2](https://www.microsoft.com/en-us/download/details.aspx?id=53344)
 
-1. Install [Build Tools 2015](https://www.microsoft.com/en-us/download/details.aspx?id=48159)
+1. Install [Build Tools for Visual Studio 2017](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15)
 
-      * Add it to your environmental path by running the following command from an administrative command prompt `setx PATH "%PATH%;C:\Program Files (x86)\MSBuild\14.0\Bin\"`
+      * Add it to your environmental path by running the following command from an administrative command prompt `setx PATH "%PATH%;%ProgramFiles(x86)%\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin"`
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/download)
     
