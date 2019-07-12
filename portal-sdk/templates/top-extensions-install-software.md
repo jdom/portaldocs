@@ -28,7 +28,7 @@ Install the following software. Your team should be aware of the most current do
 
 ### Visual Studio Code (or other similar IDE)
 
-1. Install [.NET 4.6.2](https://www.microsoft.com/en-us/download/details.aspx?id=53344)
+1. Install [.NET Framework 4.6.2 Developer Pack](http://go.microsoft.com/fwlink/?LinkId=780617)
 
 1. Install [Build Tools for Visual Studio 2017](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=15)
 
